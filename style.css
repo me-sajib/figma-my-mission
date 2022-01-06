@@ -13,21 +13,21 @@ section {
   margin: 0 auto;
 }
 
+.flexible-container {
+  display: flex;
+}
+
 #title-color {
   color: lightsalmon;
 }
 
 .style-btn {
   padding: 15px 50px;
-  background: linear-gradient(#b4ff3b, #5ce144);
+  background: linear-gradient(180deg, #ffa07a, #ffa07acf);
   border-radius: 5px;
   border: none;
   cursor: pointer;
   color: white;
-}
-
-.flexible-container {
-  display: flex;
 }
 
 .description-area {
@@ -55,19 +55,18 @@ section {
   font-size: 48px;
   text-align: center;
 }
+
 .mission-image {
-  /* padding-left: 5%; */
   width: 90%;
   text-align: right;
-  /* margin: 0 auto; */
 }
 
 .mission-image img {
   width: 80%;
-  /* background-position: right; */
-  /* text-align: right; */
   height: 480px;
 }
+
+/* mission area style code below */
 
 .mission-area {
   width: 100%;
@@ -79,7 +78,8 @@ section {
   padding-right: 0;
   margin: 0;
 }
-/* my mission background color */
+
+/* my mission three division background color */
 .mission-bg {
   background: #4f9da62b;
 }
@@ -92,6 +92,7 @@ section {
   background: #24044814;
 }
 /* end of mission background color */
+
 .mission-area .icon img {
   width: 141px;
   height: 141px;
@@ -129,6 +130,7 @@ section {
 }
 .meet-developer-title h1 {
   font-size: 48px;
+  margin: 0;
 }
 .meet-developer-title p {
   margin-bottom: 50px;
@@ -143,7 +145,6 @@ section {
 }
 
 .developer-image {
-  /* width: 90%; */
   padding: 10px 5px;
   text-align: center;
 }
@@ -163,14 +164,8 @@ section {
 .developer-details small {
   color: gray;
 }
-.developer-details button {
-  padding: 13px 54px;
-  background: #9942dbbf;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  cursor: pointer;
-}
+/* end of meet by developer team */
+
 /* footer */
 
 footer {
