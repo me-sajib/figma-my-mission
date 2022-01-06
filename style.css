@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 body {
   margin: 0;
@@ -69,13 +70,14 @@ section {
 }
 
 .mission-area {
-  width: 95%;
-  margin-right: 5%;
+  width: 100%;
+  margin-right: 3%;
   padding: 20px;
   border-radius: 26px;
 }
 .mission-area:last-child {
   padding-right: 0;
+  margin: 0;
 }
 /* my mission background color */
 .mission-bg {
@@ -119,4 +121,74 @@ section {
 .skill-description p {
   font-size: 18px;
   font-weight: 400;
+}
+
+/*meet by developer team */
+.meet-developer-title {
+  text-align: center;
+}
+.meet-developer-title h1 {
+  font-size: 48px;
+}
+.meet-developer-title p {
+  margin-bottom: 50px;
+}
+.developer {
+  width: 100%;
+  background: #7a454521;
+  margin-right: 2%;
+  padding: 13px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.developer-image {
+  /* width: 90%; */
+  padding: 10px 5px;
+  text-align: center;
+}
+
+.developer-image img {
+  width: 140px;
+  height: 140px;
+}
+
+.developer:last-child {
+  margin-right: 0;
+}
+.developer-details h1 {
+  margin: 0;
+}
+
+.developer-details small {
+  color: gray;
+}
+.developer-details button {
+  padding: 13px 54px;
+  background: #9942dbbf;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+/* footer */
+
+footer {
+  background: #000000eb;
+  color: aliceblue;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer h1 {
+  font-family: "Lobster", cursive;
+  font-size: 32px;
+  font-weight: 400;
+}
+span.footer-title {
+  color: #ff0081;
+}
+
+footer p {
+  color: gray;
 }
