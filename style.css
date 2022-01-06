@@ -42,7 +42,6 @@ section {
 .description-area h1 {
   font-size: 60px;
   border-left: 3px solid #b4ff3b;
-  border-image-slice: 1;
   padding-left: 10px;
 }
 
